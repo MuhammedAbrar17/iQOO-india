@@ -1,0 +1,249 @@
+
+header{
+    background:black;
+    width: 100%;
+    height: 72px;
+    display: flex;
+}
+.nevbox div:hover{
+    cursor: pointer;
+    color:rgb(211, 106, 67);
+    display: flex;
+}
+.hedimg:hover{
+    cursor: pointer;
+    color: #fff;
+}
+body {
+    margin: 0;
+}
+
+
+
+.hedimg {
+    width: 94%;
+    padding-left: 9px;
+    height: 55px;
+    padding-top: 21px;
+}
+.nevb{
+    font-family:"AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";;
+    margin-top: 10px;
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+    color: #fff;
+    
+}
+.nevb li{
+    padding-left: 29px;
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+
+
+
+.imege {
+    width: 100%;
+    height: 678px;  
+
+}
+.nevbar li{
+    color: aliceblue ;
+    padding: right 20px;
+
+}
+.nevbar{
+    display: flex;
+}
+.nevbox{
+    font-family: 'Montserrat', sans-serif;
+    width: 65%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-left: 6.5%;
+    margin-top: 31px;
+
+
+}
+
+.fa-solid{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.icon-user{
+    padding-left: 170px;
+    padding-top: 20px;
+    padding-right: 0px;
+}
+.images{
+    display: flex;
+    height: 300px;
+   width: 100%;
+   
+}
+.images img {
+    width: 100%;
+    margin-top: 0%;
+    transition: transform .7s;
+    height: 295px;
+    object-fit: cover;
+    cursor: pointer;
+    overflow: hidden;
+    padding-right: 10px;
+}
+.images div {
+    width: 25%;
+    height: 295px;
+    border: 2px solid white;
+    margin-top: 0;
+    overflow: hidden;
+   
+}
+.images div:hover img {
+    transform: scale(1.1);
+}
+.credits p:hover {
+    cursor: pointer;
+    color: orange;
+
+}
+
+.credits {
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin-left: 2%;
+    height: 270px;
+}
+
+.credits h3 {
+    font-family: 'Avenir Next LT Pro 275', sans-serif;
+    font-weight: 70;
+
+}
+
+.credits p {
+    font-family: 'Avenir Next LT Pro 275', sans-serif;
+    font-weight: 60;
+    font-size: 16px;
+    color: silver;
+
+}
+
+.email {
+    cursor: pointer;
+}
+
+.email:hover .mail {
+    color: orange;
+    cursor: pointer;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    width: 52%;
+    margin-left: 0%;
+
+}
+
+.icons i {
+    background-size: 200%;
+    background-color: silver;
+    justify-content: space-between;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-facebook:hover {
+
+    background-color: #4267B2;
+}
+
+.fa-instagram:hover {
+
+    background-color: rgba(235, 6, 147, 0.966);
+}
+
+.fa-youtube:hover {
+
+    background-color: red;
+
+}
+
+.fa-twitter:hover {
+    background-color: skyblue;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.terms {
+    justify-content: space-between;
+    width: 60%;
+    display: flex;
+}
+
+.transparent {
+    width: 98%;
+    display: flex;
+    color: silver;
+    border-top: 1px solid silver;
+    margin-left: 2%;
+    height: 82px;
+    justify-content: space-between;
+}
+
+.footer {
+    font-family: 'Avenir Next LT Pro 275', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: silver;
+    width: 100%;
+    background-color: hsl(0, 0%, 11%);
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+.mail {
+    padding: 10px;
+}
+
+.transparent p:hover {
+    color: orange;
+    cursor: pointer;
+}
+.fa-envelope{
+    color: black;
+}
+.fa-phone{
+    color: black;
+}
+
